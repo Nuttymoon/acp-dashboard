@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "acp-dashboard"
+version = "0.1.0"
+description = "A dashboard to track ACPs (Avalanche Community Proposals) support accross the Avalanche network"
+authors = ["Gauthier Leonard <gauthier@e36knots.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyter = "^1.0.0"
+plotly = "^5.18.0"
+pandas = "^2.1.4"
+chart-studio = "^1.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
